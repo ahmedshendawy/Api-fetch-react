@@ -268,7 +268,7 @@ class App extends React.Component{
       render(){
           
           return (
-            <div className="card" style={{width: "11  rem",display:"flex"}}>
+            <div className="card" style={{width: "300px",display:"flex"}}>
             <img src={this.props.item.avatar}  className="card-img-top" alt="..." />
             <div className="card-body">
                <h5 className="card-title">{this.props.item.first_name}</h5>
